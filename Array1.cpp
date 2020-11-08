@@ -58,24 +58,6 @@ int main() {
 	}
 }
 
-/*Input File must contain
-2
-3
-1 2 3
-4
-1 2 3 4
-*/
-/*Output File Contain
-Enter Size of array
-Enter element of array
-Original Array
-1 2 3 
-Output
-3 2 1 
-Enter Size of array
-Enter element of array
-Original Array
-1 2 3 4 
-Output
-4 3 2 1 
+/* using two pointer approach
+TC:- O(n)
 */
