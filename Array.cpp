@@ -14,6 +14,7 @@ void solve ()
 	}
 
 	//print Original Array
+	cout << "Original Array" << endl;
 	for (int i = 0; i < n; i++) {
 		cout << ar[i] << " ";
 	}
@@ -30,6 +31,7 @@ void solve ()
 	}
 
 	//print the final output
+	cout << "Output" << endl;
 	for (int i = 0; i < n; ++i)
 	{
 		cout << ar[i] << " ";
@@ -56,21 +58,24 @@ int main() {
 	}
 }
 
-/* Input:
+/*Input File must contain
 2
 3
 1 2 3
 4
 1 2 3 4
 */
-
-/* Output:
+/*Output File Contain
 Enter Size of array
 Enter element of array
+Original Array
 1 2 3 
+Output
 3 2 1 
 Enter Size of array
 Enter element of array
+Original Array
 1 2 3 4 
+Output
 4 3 2 1 
 */
